@@ -1,0 +1,168 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom */
+a {
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+html, body {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+img[src=""],
+img:not([src]) {
+    opacity: 0;
+}
+
+input {
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    padding: 15px;
+}
+
+.title {
+    color: rgb(75, 75, 75);
+    margin-top: 10px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.fragment {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(95, 95, 95);
+}
+
+.subTitle {
+    font-weight: bold;
+}
+
+.paragraph {
+    text-indent: 2em;
+}
+
+.caption {
+
+}
+
+.highlight {
+
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    white-space: nowrap;
+    padding: 0 15px;
+    border-radius: 4px;
+    height: 34px;
+    line-height: 34px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    position: relative;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+    color: rgba(0, 0, 0, .65);
+    background-color: #fff;
+}
+
+.primaryButton {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .045);
+}
+
+.buttonsWrapper {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
